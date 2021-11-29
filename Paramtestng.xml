@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <parameter name="username" value="dinesh23" ></parameter>
+  <parameter name="password" value="Dhoni@#1234" ></parameter>
+  <parameter name="Location" value="Los Angeles" ></parameter>
+  <parameter name="Hotelname" value="Hotel Cornice" ></parameter>
+   <parameter name="HotelSuite" value="Super Deluxe" ></parameter>
+  <test name="test1">
+  <classes>
+  <class name="ParameterAndDataProvideFrameWork"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

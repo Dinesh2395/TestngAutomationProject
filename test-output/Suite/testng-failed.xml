@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="HotelSuite" value="Super Deluxe"/>
+  <parameter name="password" value="Dhoni@#1234"/>
+  <parameter name="Hotelname" value="Hotel Cornice"/>
+  <parameter name="username" value="dinesh23"/>
+  <parameter name="Location" value="Los Angeles"/>
+  <test name="test1">
+    <classes>
+      <class name="ParameterAndDataProvideFrameWork"/>
+    </classes>
+  </test> <!-- test1 -->
+</suite> <!-- Failed suite [Suite] -->
